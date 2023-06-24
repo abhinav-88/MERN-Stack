@@ -1,0 +1,36 @@
+*{
+    padding: 5;
+    margin: 5;
+}
+p{
+    color: rebeccapurple;
+}
+h1{
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+}
+span{
+    background-color: green;
+    color: yellow;
+}
+div{
+    /* border: 1px solid red; */
+
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    /* Padding */
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+
+    padding: 20px 10px 20px 10px;
+
+    /* Margin */
+    
+}
