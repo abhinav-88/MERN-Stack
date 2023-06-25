@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/42a182743f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Responsive design</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <div>
+        <img src="./images/logo.png" alt="logo">
+      </div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Posts</a>
+        </li>
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li>
+          <a href="#">Register</a>
+        </li>
+        <li>
+          <a href="#" class="create-post-btn">New Post</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Header -->
+    <header>
+      <div class="header-content">
+        <h1>You Write, We Read</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#">
+          <span>Create New Post</span>
+        </a>
+      </div>
+    </header>
+    <!-- Content -->
+    <section class="container-flex">
+      <!-- Main -->
+      <main>
+        <article class="post-content">
+          <h1>Why MERN Stack is on Hot Cake</h1>
+          <img class="post-image" src="./images/post2.jpg" alt="cat">
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calender-alt"></i>
+              <time datetime="2022-9-1">January 1, 2022</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, vitae porro nesciunt ex doloribus architecto. Magnam culpa rem laudantium ea? Architecto, non possimus magni nisi vel adipisci suscipit delectus laboriosam?
+          </p>
+          <a class="post-read-more" href="/">Continue Reading...</a>
+        </article>
+        
+      </main>
+
+      <!-- Aside -->
+      <!-- Author -->
+      <aside class="sidebar">
+        <div class="about-me">
+          <h1>About The Author</h1>
+          <img src="./images/pic2.jpg" alt="author image">
+          <h2 class="about-name">Abhinav</h2>
+          <small>FullStack Web Developer</small>
+          <p class="about-me-bio">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatibus molestiae, et ad recusandae maiores quam, eum magni iusto facere suscipit architecto in quod voluptatum odit magnam quas debitis sapiente!
+          </p>
+        </div>
+        <div class="about-me">
+          <h1>About The Author</h1>
+          <img src="./images/pic2.jpg" alt="author image">
+          <h2 class="about-name">Abhinav</h2>
+          <small>FullStack Web Developer</small>
+          <p class="about-me-bio">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatibus molestiae, et ad recusandae maiores quam, eum magni iusto facere suscipit architecto in quod voluptatum odit magnam quas debitis sapiente!
+          </p>
+        </div>
+      </aside>
+    </section>
+    <!-- Footer -->
+  </body>
+</html>

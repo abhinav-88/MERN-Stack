@@ -1,0 +1,40 @@
+.container{
+    border: 5px solid red;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-1{
+    height: 150px;
+    width: 150px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    /* flex: 1;
+    order: 3; */
+    align-self: self-end;
+}
+
+.child-2{
+    height: 150px;
+    width: 150px;
+    font-size: 40px;
+    color: white;
+    background-color: magenta;
+    /* flex: 1;
+    order: 2; */
+}
+
+.child-3{
+    height: 150px;
+    width: 150px;
+    font-size: 40px;
+    color: white;
+    background-color: green;
+    /* flex: 1;
+    order: 1; */
+}
