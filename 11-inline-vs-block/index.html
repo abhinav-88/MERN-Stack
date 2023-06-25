@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-vs-Block</title>
+    <style>
+        span{
+            background-color: aqua;
+            color: red;
+        }
+        h2{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+        }
+        div > p > span{
+            color: brown;
+            background-color: white;
+            font-weight: bolder;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Inline vs Block Elements</h1>
+    <hr>
+    <h3>Inline Elements</h3>
+    <span>Span 1: Inline element</span>
+    <span>Span 2: Inline element</span>
+    <button>Login</button>
+    <em>Quote</em>
+    <hr>
+
+    <h3>Block elements</h3>
+    <h2>Header</h2>
+    <p>Paragraph</p>
+
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Reprehenderit</span> distinctio dolorum porro tempore sunt animi voluptatem soluta, rerum nulla amet maiores commodi. Hic accusantium placeat minus, ipsam dolor suscipit soluta.
+        </p>
+    </div>
+
+
+</body>
+</html>
